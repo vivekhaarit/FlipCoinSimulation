@@ -38,9 +38,9 @@ do
 done
 
 echo "Head %: "
-echo "scale=4; $(($(($headcount*100))/${#tossresult[@]}))" | bc
+echo "scale=4;$(($(($headcount*100))/${#tossresult[@]}))" | bc
 echo "Tail %: "
-echo "scale=4; $(($(($tailcount*100))/${#tossresult[@]}))" | bc
+echo "scale=4;$(($(($tailcount*100))/${#tossresult[@]}))" | bc
 
 
 
