@@ -95,7 +95,8 @@ echo "THT%: "$(($(($THTcount*100))/${#tossresult[@]}))
 echo "TTH%: "$(($(($TTHcount*100))/${#tossresult[@]}))
 echo "TTT%: "$(($(($TTTcount*100))/${#tossresult[@]}))
 
-
+#DICTIONARY BASED MODIFICATIONS NEEDED
+#BASH NOT SUPPORTING DICTIONARY
 
 
 
